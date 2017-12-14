@@ -5,8 +5,10 @@
 #           -------
 #           R1 + R2
 #
-# where Vs is the source voltage
+# where Vs is the source voltage,
 # R1 and R2 two resistors (or series of resistors)
+# R1 is connected to Vs
+# R2 is connected to Gnd
 # and Vout is the output voltage
 def calculate_v_out(vs, r1, r2):
     return (vs * r2) / (r1 + r2)

@@ -62,4 +62,4 @@ if __name__ == '__main__':
         margin += 1.0
 
     for r in results:
-        print("%5s   %5s   %.2f" % (ohms(r[0]), ohms(r[1]), r[2]))
+        print("%5s   %5s   %.3f" % (ohms(r[0]), ohms(r[1]), r[2]))
